@@ -20,7 +20,6 @@ export class HttpErrorInterceptor extends BaseService implements HttpInterceptor
 
   /**
    * 将错误响应包装为统一格式
-   * @param errorResponse
    */
   handleError(errorResponse: HttpErrorResponse) {
     const { status: code, error, message } = errorResponse;

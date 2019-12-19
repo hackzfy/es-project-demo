@@ -1,0 +1,12 @@
+diff a/projects/common/base/lib/http-interceptor/http-error.interceptor.ts b/projects/common/base/lib/http-interceptor/http-error.interceptor.ts	(rejected hunks)
+@@ -13 +13 @@ export class HttpErrorInterceptor extends BaseService implements HttpInterceptor
+-  constructor(protected  injector: Injector) {
++  constructor(protected injector: Injector) {
+@@ -18,3 +18 @@ export class HttpErrorInterceptor extends BaseService implements HttpInterceptor
+-    return next.handle(req).pipe(
+-      catchError(error => this.handleError(error))
+-    );
++    return next.handle(req).pipe(catchError(error => this.handleError(error)));
+@@ -28 +26 @@ export class HttpErrorInterceptor extends BaseService implements HttpInterceptor
+-    const {status: code, error, message} = errorResponse;
++    const { status: code, error, message } = errorResponse;
