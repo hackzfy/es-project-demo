@@ -1,0 +1,20 @@
+{
+  "defaults": {
+    "styleExt": "less",
+    "component": {
+      "spec": false
+    },
+    "module": {
+      "spec": false
+    },
+    "service": {
+      "spec": false
+    },
+    "directive": {
+      "spec": false
+    },
+    "pipe": {
+      "spec": false
+    }
+  }
+}

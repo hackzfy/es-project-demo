@@ -1,0 +1,8 @@
+{
+  "/": {
+    "target": "http://cms.czce.com.cn/",
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "secure": false
+  }
+}
