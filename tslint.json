@@ -15,7 +15,6 @@
     ],
     "interface-name": false,
     "max-classes-per-file": false,
-    "max-line-length": false,
     "member-access": false,
     "member-ordering": [
       true,
@@ -64,6 +63,9 @@
     "use-life-cycle-interface": true,
     "use-pipe-transform-interface": true,
     "component-class-suffix": true,
-    "directive-class-suffix": true
+    "directive-class-suffix": true,
+    "align": false,
+    "jsdoc-format": false,
+    "max-line-length": false
   }
 }
